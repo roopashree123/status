@@ -13,10 +13,8 @@ Freekart::Application.configure do
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
-
   # Don't fallback to assets pipeline if a precompiled asset is missed
   # config.assets.precompile += %w( custom.css )
-
   # Generate digests for assets URLs
   config.assets.digest = true
   config.assets.initialize_on_precompile = false
