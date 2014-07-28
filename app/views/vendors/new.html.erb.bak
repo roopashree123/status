@@ -83,7 +83,7 @@
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
 
 
-<!-- <tr>
+ <tr>
 <td><b>state </b></td>
 <% @vendor.country = 'india'%>
 <td><%= select "vendor","state",['karnataka','tamilnadu','kerala','afg'] %></td>
