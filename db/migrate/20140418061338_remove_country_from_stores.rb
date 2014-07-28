@@ -1,6 +1,6 @@
 class RemoveCountryFromStores < ActiveRecord::Migration
   def up
-    remove_column :stores, :country
+    # remove_column :stores, :country
   end
 
   def down

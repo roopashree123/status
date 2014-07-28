@@ -1,6 +1,6 @@
 class RemoveZipFromStores < ActiveRecord::Migration
   def up
-    remove_column :stores, :zip
+    # remove_column :stores, :zip
   end
 
   def down

@@ -1,6 +1,6 @@
 class RemoveAddressFromStores < ActiveRecord::Migration
   def up
-    remove_column :stores, :address
+    # remove_column :stores, :address
   end
 
   def down
