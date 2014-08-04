@@ -239,7 +239,7 @@ $('.carousel').carousel({
 	<h3 style="text-align:center"> New Products</h3>	
 	<%= link_to (image_tag "bag2.PNG", :title => "HandBags" ) , bags_path ,   id: "logo" %>
 	<div class="caption">
-		
+	<h5> Your Website represents you</h5>	
 	<p> <a>
 We are helping you to buy Coupons online..  </a>
 	</p>
@@ -252,7 +252,8 @@ We are helping you to buy Coupons online..  </a>
 	<div class="thumbnail">
 	<h3 style="text-align:center">Book Coupons</h3>	
 <%= link_to (image_tag "bag4.PNG", :title => "HandBags" ) , books_path ,   id: "logo" %>
-<div class="caption">
+
+	<div class="caption">
 	<h5> For any online activities</h5>	
 	<p>
 	
