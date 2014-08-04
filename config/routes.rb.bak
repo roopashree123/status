@@ -180,7 +180,7 @@ match '/list', to: 'categories#list'
   # just remember to delete public/index.html.
    # root :to => 'shop#home'
 
-   root :to => 'shop#home'
+   root :to => 'shop#about'
 
   # See how all your routes lay out with "rake routes"
 
