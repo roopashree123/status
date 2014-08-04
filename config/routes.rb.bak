@@ -38,7 +38,6 @@ Freekart::Application.routes.draw do
     match '/storenew', to: 'stores#new' 
 	match '/storeindex', to: 'stores#index' 
 	match '/show',  to: 'vendors#show'
-	match '/index1', to: 'products#index1'
 
 	
 	
@@ -59,7 +58,7 @@ Freekart::Application.routes.draw do
     
 
 
-	
+
 
    match '/categories', to: 'categories#category'
 		match '/bags', to: 'categories#bags'
