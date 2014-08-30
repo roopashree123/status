@@ -1,3 +1,4 @@
+<%= link_to "logout " , vendorsignout_path ,  method: "delete" , class: "btn btn-small btn-warning" %> 
 <%= form_for(@store) do |f| %>
   <% if @store.errors.any? %>
     <div id="error_explanation">
